@@ -4,7 +4,7 @@ metadata:
 components:
   - name: builder
     container:
-      image: http://registry.access.redhat.com/ubi8/nodejs-18:latest
+      image:  registry.access.redhat.com/ubi8/nodejs-18
       memoryRequest: 256Mi
       memoryLimit: 8Gi
       cpuRequest: 100m
