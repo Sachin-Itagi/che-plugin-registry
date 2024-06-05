@@ -4,7 +4,7 @@ metadata:
 components:
   - name: builder
     container:
-      image:  registry.access.redhat.com/ubi8/nodejs-18
+      image:  quay.io/devspaces/udi-rhel8:latest
       memoryRequest: 256Mi
       memoryLimit: 8Gi
       cpuRequest: 100m
